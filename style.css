@@ -7,6 +7,11 @@ body {
     background-color: black;
 }
 
+body.hidden {
+    height: 100vh;
+    overflow: hidden;
+}
+
 h1 {
     font-family: 'Lora';
     font-weight: 400;
