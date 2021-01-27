@@ -133,15 +133,13 @@ nav li.selected,
     position: absolute;
     top: 0;
     left:0;
-    /*onClick: display: flex;*/
 }
 
 .mobile-menu-wrapper span {
     width: 24px;
     display: inline-block;
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 24px;
 }
 
 .mobile-menu {
@@ -191,11 +189,18 @@ nav li.selected,
    .main a {
        font-size: 0.875rem;
    }
+   .mobile-menu-wrapper span {
+    right: 48px;
+    }
 }
+
 
 @media (max-width: 768px) {
     .main-nav .col-12  {
         padding-right: 0 !important;
+    }
+    .mobile-menu-wrapper span {
+        right: 16px;
     }
 }
 
