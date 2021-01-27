@@ -1,0 +1,179 @@
+body {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 300;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: 'Lora';
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1;
+}
+
+.container {
+    height: 100vh;
+}
+
+.logo span {
+    border: solid 1px #fff;
+    font-family: 'Crimson Pro';
+    font-size: 0.875rem;
+    line-height: 0.975rem;
+    padding: 0.5rem;
+}
+
+.navigation {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+
+nav li {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.4rem;
+    margin-left: 5.375rem;
+}
+
+nav li.selected {
+    font-weight: 700;
+}
+
+.main {
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+.main a {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.image {
+    position: relative;
+}
+
+.custom-card {
+    background-color: black;
+    position: absolute;
+    right: 5%;
+    top: 85%;
+    max-width: 410px;
+    padding: 16px 24px;
+}
+
+.custom-card-header img {
+    border-radius: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.custom-card-header p {
+    color: #828282;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.footer {
+    padding: 40px 0px;
+    color: #A9A9A9;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+}
+
+.footer span {
+    color: #A9A9A9;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+    h2 {
+        font-size: 1.125rem;
+    }
+    h3 {
+        font-size: 0.75rem;
+    }
+    .custom-card {
+        max-width: 300px;
+        padding: 12px 18px;
+        right: 3.5%;
+        top: 90%;
+    }
+    .custom-card-header img {
+        max-width: 36px;
+        max-height: 36px;
+    }
+    .custom-card-header p {
+        font-size: 0.625rem;
+    }
+    h1 {
+        font-size: 2.25rem;
+    }
+    .main {
+        margin-top: 24px;
+        margin-bottom: 120px;
+    }
+    .main p {
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+    .navigation {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+   .main a {
+       font-size: 0.875rem;
+   }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .main {
+        margin-top: 0;
+    }
+    .main p {
+        font-size: 0.75rem;
+    }
+    .custom-card {
+        top: 100%;
+        right: 0;
+    }
+    .footer span {
+        font-size: 0.75rem;
+    }
+}
+
+
