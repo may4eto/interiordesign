@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://may4eto.github.io/interiordesign/}">
+    <a href="https://may4eto.github.io/interiordesign/">
       Demo
     </a>
     <span> | </span>
